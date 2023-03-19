@@ -11,11 +11,11 @@
  * https://www.youtube.com/watch?v=-nq4UbD0NT8
  * 
  * #3
- * 
- * 
+ * PHP REST API From Scratch [3] - Update & Delete
+ * https://www.youtube.com/watch?v=tG2U18EmIu4
  * 
  */
 
-echo "Testing 123456789";
+echo "Testing";
 
 phpinfo(INFO_MODULES);
