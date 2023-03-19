@@ -49,3 +49,5 @@
             array('message' => 'No Posts Found')
         );
     }
+
+    //phpinfo(INFO_MODULES);
