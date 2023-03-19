@@ -1,5 +1,5 @@
 <?php
 
-echo "Testing 123456";
+echo "Testing 123456789";
 
-//phpinfo(INFO_MODULES);
+phpinfo(INFO_MODULES);
