@@ -4,7 +4,7 @@
     header('Content-Type: application/json');
 
     include_once '../../config/Database.php';
-    include_once '../../models/post.php';
+    include_once '../../models/Post.php';
 
     // Instantiate Database and Connect
     $database = new Database();
