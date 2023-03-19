@@ -15,7 +15,7 @@
 
         // Constructor with Database
         public function __construct($db) {
-            $this->conn - $db;
+            $this->conn = $db;
         }
 
         // Get Posts
