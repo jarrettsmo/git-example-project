@@ -105,7 +105,7 @@
             // Bind data
             $stmt->bindParam(':title', $this->title);
             $stmt->bindParam(':body', $this->body);
-            $stmt->bindParam(':author', $this-author);
+            $stmt->bindParam(':author', $this->author);
             $stmt->bindParam(':category_id', $this->category_id);
 
             // Execute query
