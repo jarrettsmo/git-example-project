@@ -4,7 +4,7 @@
         private $conn;
         private $table = 'posts';
 
-        // Post Peroperties
+        // Post Properties
         public $id;
         public $category_id;
         public $category_name;
