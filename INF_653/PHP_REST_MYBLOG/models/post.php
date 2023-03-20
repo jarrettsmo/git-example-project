@@ -158,4 +158,31 @@
             
             return false;
         }
+
+        // Delete Post
+        public function delete() {
+            // Create query
+            $query =    'DELETE FROM ' . $this->table . '
+                        WHERE
+                            id = :id';
+        
+            // PDO Prepared Statement
+            $stmt = $this->conn->prepare($query);
+
+            // Clean data
+            $this->id = htmlspecialchars(strip_tags($this->id));
+
+            // Bind data
+            $stmt->bindParam(':id', $this->id);
+
+            // Execute query
+            if($stmt->execute()) {
+                return true;
+            } 
+
+            // Print error if problems
+            printf('Error: %s.\n', $stmt->error);
+            
+            return false;
+        }
     }
